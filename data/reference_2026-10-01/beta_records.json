@@ -1,0 +1,549 @@
+{
+  "total_count": 32,
+  "results": [
+    {
+      "libelle_aca": "Martinique",
+      "libelle_aca_majuscules": "MARTINIQUE",
+      "email_region_academique": null,
+      "email_academie": "ac-martinique.fr",
+      "chefs_d_etablissement": 6,
+      "enseignants": 9,
+      "administration": 17,
+      "inspecteurs": 3,
+      "total": 35,
+      "geopoint": {
+        "lon": -61.0188616632,
+        "lat": 14.653390441
+      },
+      "latitude": 14.653390441,
+      "longitude": -61.0188616632
+    },
+    {
+      "libelle_aca": "Guyane",
+      "libelle_aca_majuscules": "GUYANE",
+      "email_region_academique": "ac-guyane.fr",
+      "email_academie": "ac-guyane.fr",
+      "chefs_d_etablissement": 14,
+      "enseignants": 2,
+      "administration": 43,
+      "inspecteurs": 7,
+      "total": 66,
+      "geopoint": {
+        "lon": -53.2385328464,
+        "lat": 3.9243178653
+      },
+      "latitude": 3.9243178653,
+      "longitude": -53.2385328464
+    },
+    {
+      "libelle_aca": "Dijon",
+      "libelle_aca_majuscules": "DIJON",
+      "email_region_academique": null,
+      "email_academie": "ac-dijon.fr",
+      "chefs_d_etablissement": 7,
+      "enseignants": 10,
+      "administration": 14,
+      "inspecteurs": 8,
+      "total": 39,
+      "geopoint": {
+        "lon": 4.14937923191,
+        "lat": 47.2478306944
+      },
+      "latitude": 47.2478306944,
+      "longitude": 4.14937923191
+    },
+    {
+      "libelle_aca": "Normandie",
+      "libelle_aca_majuscules": "NORMANDIE",
+      "email_region_academique": null,
+      "email_academie": "ac-normandie.fr",
+      "chefs_d_etablissement": 1,
+      "enseignants": 11,
+      "administration": 12,
+      "inspecteurs": 4,
+      "total": 28,
+      "geopoint": {
+        "lon": -0.306234601792,
+        "lat": 49.1043075421
+      },
+      "latitude": 49.1043075421,
+      "longitude": -0.306234601792
+    },
+    {
+      "libelle_aca": "Nancy-Metz",
+      "libelle_aca_majuscules": "NANCY-METZ",
+      "email_region_academique": null,
+      "email_academie": "ac-nancy-metz.fr",
+      "chefs_d_etablissement": 8,
+      "enseignants": 14,
+      "administration": 32,
+      "inspecteurs": 3,
+      "total": 57,
+      "geopoint": {
+        "lon": 6.14180183082,
+        "lat": 48.7623743677
+      },
+      "latitude": 48.7623743677,
+      "longitude": 6.14180183082
+    },
+    {
+      "libelle_aca": "Poitiers",
+      "libelle_aca_majuscules": "POITIERS",
+      "email_region_academique": null,
+      "email_academie": "ac-poitiers.fr",
+      "chefs_d_etablissement": 10,
+      "enseignants": 5,
+      "administration": 23,
+      "inspecteurs": 16,
+      "total": 54,
+      "geopoint": {
+        "lon": -0.0817422264449,
+        "lat": 46.1627290592
+      },
+      "latitude": 46.1627290592,
+      "longitude": -0.0817422264449
+    },
+    {
+      "libelle_aca": "Toulouse",
+      "libelle_aca_majuscules": "TOULOUSE",
+      "email_region_academique": null,
+      "email_academie": "ac-toulouse.fr",
+      "chefs_d_etablissement": 11,
+      "enseignants": 24,
+      "administration": 21,
+      "inspecteurs": 12,
+      "total": 68,
+      "geopoint": {
+        "lon": 1.4874367317,
+        "lat": 43.768602732
+      },
+      "latitude": 43.768602732,
+      "longitude": 1.4874367317
+    },
+    {
+      "libelle_aca": "Polynesie",
+      "libelle_aca_majuscules": "POLYNESIE",
+      "email_region_academique": "@ac-polynesie.pf",
+      "email_academie": "ac-polynesie.pf",
+      "chefs_d_etablissement": 0,
+      "enseignants": 4,
+      "administration": 1,
+      "inspecteurs": 0,
+      "total": 5,
+      "geopoint": {
+        "lon": -149.5665,
+        "lat": -17.53733
+      },
+      "latitude": -17.53733,
+      "longitude": -149.5665
+    },
+    {
+      "libelle_aca": "Orléans-Tours",
+      "libelle_aca_majuscules": "ORLEANS-TOURS",
+      "email_region_academique": "@ac-orleans-tours.fr",
+      "email_academie": "ac-orleans-tours.fr",
+      "chefs_d_etablissement": 6,
+      "enseignants": 16,
+      "administration": 39,
+      "inspecteurs": 15,
+      "total": 76,
+      "geopoint": {
+        "lon": 1.68440746153,
+        "lat": 47.4847816708
+      },
+      "latitude": 47.4847816708,
+      "longitude": 1.68440746153
+    },
+    {
+      "libelle_aca": "Amiens",
+      "libelle_aca_majuscules": "AMIENS",
+      "email_region_academique": null,
+      "email_academie": "ac-amiens.fr",
+      "chefs_d_etablissement": 7,
+      "enseignants": 14,
+      "administration": 16,
+      "inspecteurs": 12,
+      "total": 49,
+      "geopoint": {
+        "lon": 2.80766630448,
+        "lat": 49.6427724137
+      },
+      "latitude": 49.6427724137,
+      "longitude": 2.80766630448
+    },
+    {
+      "libelle_aca": "Clermont-Ferrand",
+      "libelle_aca_majuscules": "CLERMONT",
+      "email_region_academique": null,
+      "email_academie": "ac-clermont.fr",
+      "chefs_d_etablissement": 0,
+      "enseignants": 9,
+      "administration": 2,
+      "inspecteurs": 0,
+      "total": 11,
+      "geopoint": {
+        "lon": 3.17706350247,
+        "lat": 45.6561689979
+      },
+      "latitude": 45.6561689979,
+      "longitude": 3.17706350247
+    },
+    {
+      "libelle_aca": "La Réunion",
+      "libelle_aca_majuscules": "LA REUNION",
+      "email_region_academique": null,
+      "email_academie": "ac-reunion.fr",
+      "chefs_d_etablissement": 11,
+      "enseignants": 10,
+      "administration": 31,
+      "inspecteurs": 6,
+      "total": 58,
+      "geopoint": {
+        "lon": 55.5325439455,
+        "lat": -21.1332104688
+      },
+      "latitude": -21.1332104688,
+      "longitude": 55.5325439455
+    },
+    {
+      "libelle_aca": "Versailles",
+      "libelle_aca_majuscules": "VERSAILLES",
+      "email_region_academique": null,
+      "email_academie": "ac-versailles.fr",
+      "chefs_d_etablissement": 9,
+      "enseignants": 66,
+      "administration": 55,
+      "inspecteurs": 5,
+      "total": 135,
+      "geopoint": {
+        "lon": 2.05093098277,
+        "lat": 48.7816176128
+      },
+      "latitude": 48.7816176128,
+      "longitude": 2.05093098277
+    },
+    {
+      "libelle_aca": "Strasbourg",
+      "libelle_aca_majuscules": "STRASBOURG",
+      "email_region_academique": null,
+      "email_academie": "ac-strasbourg.fr",
+      "chefs_d_etablissement": 8,
+      "enseignants": 20,
+      "administration": 14,
+      "inspecteurs": 5,
+      "total": 47,
+      "geopoint": {
+        "lon": 7.4352136095,
+        "lat": 48.3302742303
+      },
+      "latitude": 48.3302742303,
+      "longitude": 7.4352136095
+    },
+    {
+      "libelle_aca": "Bordeaux",
+      "libelle_aca_majuscules": "BORDEAUX",
+      "email_region_academique": null,
+      "email_academie": "ac-bordeaux.fr",
+      "chefs_d_etablissement": 13,
+      "enseignants": 37,
+      "administration": 64,
+      "inspecteurs": 11,
+      "total": 125,
+      "geopoint": {
+        "lon": -0.228081890016,
+        "lat": 44.3550072937
+      },
+      "latitude": 44.3550072937,
+      "longitude": -0.228081890016
+    },
+    {
+      "libelle_aca": "Montpellier",
+      "libelle_aca_majuscules": "MONTPELLIER",
+      "email_region_academique": null,
+      "email_academie": "ac-montpellier.fr",
+      "chefs_d_etablissement": 3,
+      "enseignants": 34,
+      "administration": 9,
+      "inspecteurs": 3,
+      "total": 49,
+      "geopoint": {
+        "lon": 3.22567116111,
+        "lat": 43.5936344954
+      },
+      "latitude": 43.5936344954,
+      "longitude": 3.22567116111
+    },
+    {
+      "libelle_aca": "Corse",
+      "libelle_aca_majuscules": "CORSE",
+      "email_region_academique": null,
+      "email_academie": "ac-corse.fr",
+      "chefs_d_etablissement": 9,
+      "enseignants": 5,
+      "administration": 27,
+      "inspecteurs": 3,
+      "total": 44,
+      "geopoint": {
+        "lon": 9.10637122189,
+        "lat": 42.1510421023
+      },
+      "latitude": 42.1510421023,
+      "longitude": 9.10637122189
+    },
+    {
+      "libelle_aca": "Noumea",
+      "libelle_aca_majuscules": "NOUMEA",
+      "email_region_academique": "@ac-noumea.nc",
+      "email_academie": "ac-noumea.nc",
+      "chefs_d_etablissement": 1,
+      "enseignants": 11,
+      "administration": 20,
+      "inspecteurs": 1,
+      "total": 33,
+      "geopoint": {
+        "lon": 166.457993,
+        "lat": -22.275801
+      },
+      "latitude": -22.275801,
+      "longitude": 166.457993
+    },
+    {
+      "libelle_aca": "Paris",
+      "libelle_aca_majuscules": "PARIS",
+      "email_region_academique": null,
+      "email_academie": "ac-paris.fr",
+      "chefs_d_etablissement": 8,
+      "enseignants": 19,
+      "administration": 28,
+      "inspecteurs": 6,
+      "total": 61,
+      "geopoint": {
+        "lon": 2.34283924113,
+        "lat": 48.8566055719
+      },
+      "latitude": 48.8566055719,
+      "longitude": 2.34283924113
+    },
+    {
+      "libelle_aca": "Besançon",
+      "libelle_aca_majuscules": "BESANCON",
+      "email_region_academique": null,
+      "email_academie": "ac-besancon.fr",
+      "chefs_d_etablissement": 4,
+      "enseignants": 6,
+      "administration": 22,
+      "inspecteurs": 7,
+      "total": 39,
+      "geopoint": {
+        "lon": 6.08808604316,
+        "lat": 47.2079483667
+      },
+      "latitude": 47.2079483667,
+      "longitude": 6.08808604316
+    },
+    {
+      "libelle_aca": "Limoges",
+      "libelle_aca_majuscules": "LIMOGES",
+      "email_region_academique": null,
+      "email_academie": "ac-limoges.fr",
+      "chefs_d_etablissement": 8,
+      "enseignants": 3,
+      "administration": 9,
+      "inspecteurs": 14,
+      "total": 34,
+      "geopoint": {
+        "lon": 1.71417488108,
+        "lat": 45.7740996265
+      },
+      "latitude": 45.7740996265,
+      "longitude": 1.71417488108
+    },
+    {
+      "libelle_aca": "Lyon",
+      "libelle_aca_majuscules": "LYON",
+      "email_region_academique": null,
+      "email_academie": "ac-lyon.fr",
+      "chefs_d_etablissement": 0,
+      "enseignants": 23,
+      "administration": 4,
+      "inspecteurs": 2,
+      "total": 29,
+      "geopoint": {
+        "lon": 4.77279452124,
+        "lat": 45.9174746186
+      },
+      "latitude": 45.9174746186,
+      "longitude": 4.77279452124
+    },
+    {
+      "libelle_aca": "Grenoble",
+      "libelle_aca_majuscules": "GRENOBLE",
+      "email_region_academique": null,
+      "email_academie": "ac-grenoble.fr",
+      "chefs_d_etablissement": 3,
+      "enseignants": 23,
+      "administration": 6,
+      "inspecteurs": 1,
+      "total": 33,
+      "geopoint": {
+        "lon": 5.59670490137,
+        "lat": 45.2201521806
+      },
+      "latitude": 45.2201521806,
+      "longitude": 5.59670490137
+    },
+    {
+      "libelle_aca": "Aix-Marseille",
+      "libelle_aca_majuscules": "AIX-MARSEILLE",
+      "email_region_academique": "@region-academique-paca.fr",
+      "email_academie": "ac-aix-marseille.fr",
+      "chefs_d_etablissement": 5,
+      "enseignants": 27,
+      "administration": 19,
+      "inspecteurs": 8,
+      "total": 59,
+      "geopoint": {
+        "lon": 5.79308891021,
+        "lat": 44.1027716697
+      },
+      "latitude": 44.1027716697,
+      "longitude": 5.79308891021
+    },
+    {
+      "libelle_aca": "Nice",
+      "libelle_aca_majuscules": "NICE",
+      "email_region_academique": "@region-academique-paca.fr",
+      "email_academie": "ac-nice.fr",
+      "chefs_d_etablissement": 7,
+      "enseignants": 11,
+      "administration": 20,
+      "inspecteurs": 6,
+      "total": 44,
+      "geopoint": {
+        "lon": 6.60899772959,
+        "lat": 43.6491925857
+      },
+      "latitude": 43.6491925857,
+      "longitude": 6.60899772959
+    },
+    {
+      "libelle_aca": "Guadeloupe",
+      "libelle_aca_majuscules": "GUADELOUPE",
+      "email_region_academique": null,
+      "email_academie": "ac-guadeloupe.fr",
+      "chefs_d_etablissement": 0,
+      "enseignants": 3,
+      "administration": 1,
+      "inspecteurs": 2,
+      "total": 6,
+      "geopoint": {
+        "lon": -61.5398945904,
+        "lat": 16.1976016408
+      },
+      "latitude": 16.1976016408,
+      "longitude": -61.5398945904
+    },
+    {
+      "libelle_aca": "Mayotte",
+      "libelle_aca_majuscules": "MAYOTTE",
+      "email_region_academique": null,
+      "email_academie": "ac-mayotte.fr",
+      "chefs_d_etablissement": 6,
+      "enseignants": 1,
+      "administration": 20,
+      "inspecteurs": 3,
+      "total": 30,
+      "geopoint": {
+        "lon": 45.1468435284,
+        "lat": -12.8200757555
+      },
+      "latitude": -12.8200757555,
+      "longitude": 45.1468435284
+    },
+    {
+      "libelle_aca": "Créteil",
+      "libelle_aca_majuscules": "CRETEIL",
+      "email_region_academique": null,
+      "email_academie": "ac-creteil.fr",
+      "chefs_d_etablissement": 2,
+      "enseignants": 38,
+      "administration": 5,
+      "inspecteurs": 5,
+      "total": 50,
+      "geopoint": {
+        "lon": 2.89937994538,
+        "lat": 48.6440215658
+      },
+      "latitude": 48.6440215658,
+      "longitude": 2.89937994538
+    },
+    {
+      "libelle_aca": "Lille",
+      "libelle_aca_majuscules": "LILLE",
+      "email_region_academique": null,
+      "email_academie": "ac-lille.fr",
+      "chefs_d_etablissement": 5,
+      "enseignants": 38,
+      "administration": 20,
+      "inspecteurs": 12,
+      "total": 75,
+      "geopoint": {
+        "lon": 2.71472301366,
+        "lat": 50.4727275341
+      },
+      "latitude": 50.4727275341,
+      "longitude": 2.71472301366
+    },
+    {
+      "libelle_aca": "Reims",
+      "libelle_aca_majuscules": "REIMS",
+      "email_region_academique": null,
+      "email_academie": "ac-reims.fr",
+      "chefs_d_etablissement": 7,
+      "enseignants": 8,
+      "administration": 15,
+      "inspecteurs": 4,
+      "total": 34,
+      "geopoint": {
+        "lon": 4.54141849207,
+        "lat": 48.7364499113
+      },
+      "latitude": 48.7364499113,
+      "longitude": 4.54141849207
+    },
+    {
+      "libelle_aca": "Nantes",
+      "libelle_aca_majuscules": "NANTES",
+      "email_region_academique": null,
+      "email_academie": "ac-nantes.fr",
+      "chefs_d_etablissement": 2,
+      "enseignants": 25,
+      "administration": 7,
+      "inspecteurs": 3,
+      "total": 37,
+      "geopoint": {
+        "lon": -0.817261646271,
+        "lat": 47.477378106
+      },
+      "latitude": 47.477378106,
+      "longitude": -0.817261646271
+    },
+    {
+      "libelle_aca": "Rennes",
+      "libelle_aca_majuscules": "RENNES",
+      "email_region_academique": null,
+      "email_academie": "ac-rennes.fr",
+      "chefs_d_etablissement": 16,
+      "enseignants": 26,
+      "administration": 5,
+      "inspecteurs": 4,
+      "total": 51,
+      "geopoint": {
+        "lon": -2.84277532963,
+        "lat": 48.1775728152
+      },
+      "latitude": 48.1775728152,
+      "longitude": -2.84277532963
+    }
+  ]
+}

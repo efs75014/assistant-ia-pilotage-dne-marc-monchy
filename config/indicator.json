@@ -1,0 +1,9 @@
+{
+  "anchor_date": "2026-10-01",
+  "fraction": 0.5,
+  "consecutive_weeks": 2,
+  "scope_domains": [
+    "ac-aix-marseille.fr","ac-amiens.fr","ac-besancon.fr","ac-bordeaux.fr","ac-clermont.fr","ac-corse.fr","ac-creteil.fr","ac-dijon.fr","ac-grenoble.fr","ac-guadeloupe.fr","ac-guyane.fr","ac-reunion.fr","ac-lille.fr","ac-limoges.fr","ac-lyon.fr","ac-martinique.fr","ac-mayotte.fr","ac-montpellier.fr","ac-nancy-metz.fr","ac-nantes.fr","ac-nice.fr","ac-normandie.fr","ac-noumea.nc","ac-orleans-tours.fr","ac-paris.fr","ac-poitiers.fr","ac-polynesie.pf","ac-reims.fr","ac-rennes.fr","ac-strasbourg.fr","ac-toulouse.fr","ac-versailles.fr"
+  ],
+  "method": "Indicateur principal : intensité hebdomadaire en production = différence de messages sur 7 jours / moyenne des comptes créés à J et J-7. Référence hebdomadaire = médiane des 32 académies. Seuil = 50 % de cette médiane, recalculé chaque semaine. Signal si l'académie est sous son seuil pendant deux semaines consécutives. Comparaison stricte sur valeurs non arrondies."
+}

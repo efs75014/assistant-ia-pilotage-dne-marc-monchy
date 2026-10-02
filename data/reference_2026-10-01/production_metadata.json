@@ -1,0 +1,845 @@
+{
+  "visibility": "domain",
+  "fields": [
+    {
+      "name": "cree_le",
+      "description": null,
+      "annotations": {},
+      "label": "Créé le",
+      "type": "datetime"
+    },
+    {
+      "name": "timestamp",
+      "description": null,
+      "annotations": {},
+      "label": "Horodatage",
+      "type": "datetime"
+    },
+    {
+      "name": "education_gouv_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du domaine education.gouv.fr",
+      "type": "int"
+    },
+    {
+      "name": "education_gouv_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du domaine education.gouv.fr",
+      "type": "int"
+    },
+    {
+      "name": "igesr_gouv_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs IGESR",
+      "type": "int"
+    },
+    {
+      "name": "igesr_gouv_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages IGESR",
+      "type": "int"
+    },
+    {
+      "name": "ac_orleans_tours_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie d'Orléans-Tours",
+      "type": "int"
+    },
+    {
+      "name": "ac_orleans_tours_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie d'Orléans-Tours",
+      "type": "int"
+    },
+    {
+      "name": "ac_versailles_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Versailles",
+      "type": "int"
+    },
+    {
+      "name": "ac_versailles_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Versailles",
+      "type": "int"
+    },
+    {
+      "name": "ac_rennes_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Rennes",
+      "type": "int"
+    },
+    {
+      "name": "ac_rennes_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Rennes",
+      "type": "int"
+    },
+    {
+      "name": "ac_nantes_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Nantes",
+      "type": "int"
+    },
+    {
+      "name": "ac_nantes_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Nantes",
+      "type": "int"
+    },
+    {
+      "name": "ac_aix_marseille_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie d'Aix-Marseille",
+      "type": "int"
+    },
+    {
+      "name": "ac_aix_marseille_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie d'Aix-Marseille",
+      "type": "int"
+    },
+    {
+      "name": "jeunesse_sports_gouv_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du domaine Jeunesse, Vie associative et Sports",
+      "type": "int"
+    },
+    {
+      "name": "jeunesse_sports_gouv_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du domaine Jeunesse, Vie associative et Sports",
+      "type": "int"
+    },
+    {
+      "name": "ac_creteil_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Créteil",
+      "type": "int"
+    },
+    {
+      "name": "ac_creteil_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Créteil",
+      "type": "int"
+    },
+    {
+      "name": "ac_reunion_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de La Réunion",
+      "type": "int"
+    },
+    {
+      "name": "ac_reunion_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de La Réunion",
+      "type": "int"
+    },
+    {
+      "name": "ac_nice_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Nice",
+      "type": "int"
+    },
+    {
+      "name": "ac_nice_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Nice",
+      "type": "int"
+    },
+    {
+      "name": "ac_reims_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Reims",
+      "type": "int"
+    },
+    {
+      "name": "ac_reims_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Reims",
+      "type": "int"
+    },
+    {
+      "name": "ac_bordeaux_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Bordeaux",
+      "type": "int"
+    },
+    {
+      "name": "ac_bordeaux_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Bordeaux",
+      "type": "int"
+    },
+    {
+      "name": "ac_montpellier_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Montpellier",
+      "type": "int"
+    },
+    {
+      "name": "ac_montpellier_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Montpellier",
+      "type": "int"
+    },
+    {
+      "name": "ac_strasbourg_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Strasbourg",
+      "type": "int"
+    },
+    {
+      "name": "ac_strasbourg_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Strasbourg",
+      "type": "int"
+    },
+    {
+      "name": "ac_besancon_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Besançon",
+      "type": "int"
+    },
+    {
+      "name": "ac_besancon_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Besançon",
+      "type": "int"
+    },
+    {
+      "name": "ac_lille_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Lille",
+      "type": "int"
+    },
+    {
+      "name": "ac_lille_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Lille",
+      "type": "int"
+    },
+    {
+      "name": "ac_toulouse_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Toulouse",
+      "type": "int"
+    },
+    {
+      "name": "ac_toulouse_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Toulouse",
+      "type": "int"
+    },
+    {
+      "name": "ac_normandie_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Normandie",
+      "type": "int"
+    },
+    {
+      "name": "ac_normandie_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Normandie",
+      "type": "int"
+    },
+    {
+      "name": "ac_nancy_metz_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Nancy-Metz",
+      "type": "int"
+    },
+    {
+      "name": "ac_nancy_metz_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Nancy-Metz",
+      "type": "int"
+    },
+    {
+      "name": "ac_lyon_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Lyon",
+      "type": "int"
+    },
+    {
+      "name": "ac_lyon_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Lyon",
+      "type": "int"
+    },
+    {
+      "name": "ac_dijon_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Dijon",
+      "type": "int"
+    },
+    {
+      "name": "ac_dijon_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Dijon",
+      "type": "int"
+    },
+    {
+      "name": "ac_guyane_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Guyane",
+      "type": "int"
+    },
+    {
+      "name": "ac_guyane_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Guyane",
+      "type": "int"
+    },
+    {
+      "name": "ac_paris_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Paris",
+      "type": "int"
+    },
+    {
+      "name": "ac_paris_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Paris",
+      "type": "int"
+    },
+    {
+      "name": "ac_martinique_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Martinique",
+      "type": "int"
+    },
+    {
+      "name": "ac_martinique_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Martinique",
+      "type": "int"
+    },
+    {
+      "name": "ac_clermont_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Clermont-Ferrand",
+      "type": "int"
+    },
+    {
+      "name": "ac_clermont_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Clermont-Ferrand",
+      "type": "int"
+    },
+    {
+      "name": "reseau_canope_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du réseau Canopé",
+      "type": "int"
+    },
+    {
+      "name": "reseau_canope_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du réseau Canopé",
+      "type": "int"
+    },
+    {
+      "name": "ac_grenoble_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Grenoble",
+      "type": "int"
+    },
+    {
+      "name": "ac_grenoble_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Grenoble",
+      "type": "int"
+    },
+    {
+      "name": "ac_poitiers_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Poitiers",
+      "type": "int"
+    },
+    {
+      "name": "ac_poitiers_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Poitiers",
+      "type": "int"
+    },
+    {
+      "name": "educagri_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du domaine Educagri (enseignement agricole)",
+      "type": "int"
+    },
+    {
+      "name": "educagri_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du domaine Educagri (enseignement agricole)",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_paca_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de la région académique Provence-Alpes-Côte d'Azur",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_paca_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de la région académique Provence-Alpes-Côte d'Azur",
+      "type": "int"
+    },
+    {
+      "name": "ac_limoges_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Limoges",
+      "type": "int"
+    },
+    {
+      "name": "ac_limoges_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Limoges",
+      "type": "int"
+    },
+    {
+      "name": "ac_amiens_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie d'Amiens",
+      "type": "int"
+    },
+    {
+      "name": "ac_amiens_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie d'Amiens",
+      "type": "int"
+    },
+    {
+      "name": "ac_corse_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Corse",
+      "type": "int"
+    },
+    {
+      "name": "ac_corse_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Corse",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_hdf_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de la région académique Hauts-de-France",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_hdf_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de la région académique Hauts-de-France",
+      "type": "int"
+    },
+    {
+      "name": "ac_mayotte_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Mayotte",
+      "type": "int"
+    },
+    {
+      "name": "ac_mayotte_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Mayotte",
+      "type": "int"
+    },
+    {
+      "name": "ac_noumea_nc_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du vice-rectorat de Nouvelle-Calédonie",
+      "type": "int"
+    },
+    {
+      "name": "ac_noumea_nc_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du vice-rectorat de Nouvelle-Calédonie",
+      "type": "int"
+    },
+    {
+      "name": "ac_polynesie_pf_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du vice-rectorat de Polynésie française",
+      "type": "int"
+    },
+    {
+      "name": "ac_polynesie_pf_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du vice-rectorat de Polynésie française",
+      "type": "int"
+    },
+    {
+      "name": "ac_guadeloupe_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'académie de Guadeloupe",
+      "type": "int"
+    },
+    {
+      "name": "ac_guadeloupe_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'académie de Guadeloupe",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_idf_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de la région académique Île-de-France",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_idf_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de la région académique Île-de-France",
+      "type": "int"
+    },
+    {
+      "name": "aefe_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'AEFE (Agence pour l'enseignement français à l'étranger)",
+      "type": "int"
+    },
+    {
+      "name": "aefe_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'AEFE (Agence pour l'enseignement français à l'étranger)",
+      "type": "int"
+    },
+    {
+      "name": "autres_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs - domaines non identifiés",
+      "type": "int"
+    },
+    {
+      "name": "autres_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages - domaines non identifiés",
+      "type": "int"
+    },
+    {
+      "name": "unistra_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de l'Université de Strasbourg",
+      "type": "int"
+    },
+    {
+      "name": "unistra_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de l'Université de Strasbourg",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_nouvelle_aquitaine_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de la région académique Nouvelle-Aquitaine",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_nouvelle_aquitaine_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de la région académique Nouvelle-Aquitaine",
+      "type": "int"
+    },
+    {
+      "name": "ac_cned_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs du CNED (Centre national d'enseignement à distance)",
+      "type": "int"
+    },
+    {
+      "name": "ac_cned_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages du CNED (Centre national d'enseignement à distance)",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_auvergne_rhone_alpes_fr_users",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre d'utilisateurs de la région académique Auvergne-Rhône-Alpes",
+      "type": "int"
+    },
+    {
+      "name": "region_academique_auvergne_rhone_alpes_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "Nombre de messages de la région académique Auvergne-Rhône-Alpes",
+      "type": "int"
+    },
+    {
+      "name": "parcoursup_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "parcoursup.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "onisep_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "onisep.fr utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "onisep_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "onisep.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "siec_education_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "siec.education.fr utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "siec_education_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "siec.education.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "clemi_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "clemi.fr utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "clemi_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "clemi.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "lycee_chateaubriand_eu_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "lycee-chateaubriand.eu utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "lycee_chateaubriand_eu_messages",
+      "description": null,
+      "annotations": {},
+      "label": "lycee-chateaubriand.eu messages",
+      "type": "int"
+    },
+    {
+      "name": "pix_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "pix.fr utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "pix_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "pix.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "externe_phm_education_gouv_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "externe.phm.education.gouv.fr utilisateurs",
+      "type": "int"
+    },
+    {
+      "name": "externe_phm_education_gouv_fr_messages",
+      "description": null,
+      "annotations": {},
+      "label": "externe.phm.education.gouv.fr messages",
+      "type": "int"
+    },
+    {
+      "name": "parcoursup_fr_utilisateurs",
+      "description": null,
+      "annotations": {},
+      "label": "parcoursup.fr utilisateurs",
+      "type": "int"
+    }
+  ],
+  "dataset_id": "fr-en-assistant_ia_deploiement_menjs",
+  "dataset_uid": "da_qw4qyx",
+  "has_records": true,
+  "features": [
+    "analyze",
+    "timeserie"
+  ],
+  "attachments": [],
+  "alternative_exports": [],
+  "data_visible": true,
+  "metas": {
+    "dcat": {
+      "created": null,
+      "issued": null,
+      "creator": null,
+      "contributor": null,
+      "contact_name": null,
+      "contact_email": null,
+      "accrualperiodicity": null,
+      "spatial": null,
+      "temporal": null,
+      "granularity": null,
+      "dataquality": null,
+      "publisher_type": null,
+      "conforms_to": null,
+      "temporal_coverage_start": null,
+      "temporal_coverage_end": null,
+      "accessRights": null,
+      "relation": null
+    },
+    "default": {
+      "title": "Déploiement de \"l'Assistant\" au ministère de l'éducation nationale",
+      "description": "<p>Le présent jeu de données Déploiement de \"l'Assistant\" au ministère de l'éducation nationale  \" décrit le nombre d'utilisateurs et de messages de l'Assistant chatbot souverain des agents de l'Etat.  </p>",
+      "theme": [
+        "Personnels de l'éducation nationale",
+        "Politique éducative (dont éducation prioritaire)"
+      ],
+      "keyword": [
+        "IA",
+        "intelligence artificielle",
+        "Assistant",
+        "Assistant IA",
+        "Chatbot"
+      ],
+      "license": null,
+      "license_url": null,
+      "language": "fr",
+      "metadata_languages": [
+        "fr"
+      ],
+      "timezone": null,
+      "modified": "2026-07-09T09:44:53+00:00",
+      "modified_updates_on_metadata_change": false,
+      "modified_updates_on_data_change": false,
+      "data_processed": "2026-10-01T02:09:02.883000+00:00",
+      "metadata_processed": "2026-10-01T02:09:02.966000+00:00",
+      "geographic_reference": null,
+      "geographic_reference_auto": null,
+      "territory": null,
+      "geometry_types": null,
+      "bbox": null,
+      "publisher": "DNE DSP - Ministère de l'Education Nationale",
+      "references": null,
+      "records_count": 94,
+      "attributions": null,
+      "source_domain": null,
+      "source_domain_title": null,
+      "source_domain_address": null,
+      "source_dataset": null,
+      "shared_catalog": null,
+      "federated": false,
+      "parent_domain": null,
+      "update_frequency": "DAILY"
+    },
+    "metadonnees-complementaires": {
+      "date-observation": null,
+      "periode-donnees": null,
+      "champ": null,
+      "couverture-geographique": null,
+      "unite-statistique": null,
+      "secret-statistique": null,
+      "source": null
+    }
+  }
+}

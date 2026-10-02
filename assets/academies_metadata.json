@@ -1,0 +1,182 @@
+{
+  "visibility": "domain",
+  "fields": [
+    {
+      "name": "name",
+      "description": "Libellé de l'académie",
+      "annotations": {
+        "facet": true
+      },
+      "label": "libelle_aca",
+      "type": "text"
+    },
+    {
+      "name": "libelle_aca_majuscules",
+      "description": "Libellé de l'académie en majuscules",
+      "annotations": {
+        "sortable": true
+      },
+      "label": "libelle_aca_majuscules",
+      "type": "text"
+    },
+    {
+      "name": "libelle_region_2016",
+      "description": "Libellé de la région",
+      "annotations": {
+        "facet": true
+      },
+      "label": "libelle_region_2016",
+      "type": "text"
+    },
+    {
+      "name": "code_academie",
+      "description": "Code de l'académie",
+      "annotations": {
+        "facet": true
+      },
+      "label": "code_academie",
+      "type": "text"
+    },
+    {
+      "name": "code_region_2016",
+      "description": "Code de la région",
+      "annotations": {
+        "facet": true
+      },
+      "label": "code_region_2016",
+      "type": "text"
+    },
+    {
+      "name": "geo_point_2d",
+      "description": "Centroïde de l'académie",
+      "annotations": {},
+      "label": "Geo Point",
+      "type": "geo_point_2d"
+    },
+    {
+      "name": "geo_shape",
+      "description": "Contour de l'académie",
+      "annotations": {},
+      "label": "Geo Shape",
+      "type": "geo_shape"
+    }
+  ],
+  "dataset_id": "fr-en-contour-academies-2020",
+  "dataset_uid": "da_8jeb1i",
+  "has_records": true,
+  "features": [
+    "geo",
+    "analyze"
+  ],
+  "attachments": [],
+  "alternative_exports": [],
+  "data_visible": true,
+  "metas": {
+    "dcat": {
+      "created": null,
+      "issued": null,
+      "creator": null,
+      "contributor": null,
+      "contact_name": null,
+      "contact_email": null,
+      "accrualperiodicity": "Ponctuelle",
+      "spatial": "France",
+      "temporal": "2020",
+      "granularity": null,
+      "dataquality": null,
+      "publisher_type": null,
+      "conforms_to": null,
+      "temporal_coverage_start": "2019-12-31T23:00:00+00:00",
+      "temporal_coverage_end": "2020-12-30T23:00:00+00:00",
+      "accessRights": null,
+      "relation": null
+    },
+    "default": {
+      "title": "Contour académies 2020",
+      "description": "<p>Base de données permettant de créer un fond de carte des académies.<br></p>",
+      "theme": [
+        "Organisation du système scolaire",
+        "Données de référence"
+      ],
+      "keyword": [
+        "carte ",
+        "académies"
+      ],
+      "license": "Licence Ouverte v2.0 (Etalab)",
+      "license_url": "http://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+      "language": "fr",
+      "metadata_languages": [
+        "fr"
+      ],
+      "timezone": null,
+      "modified": "2026-01-29T18:45:37.403000+00:00",
+      "modified_updates_on_metadata_change": false,
+      "modified_updates_on_data_change": true,
+      "data_processed": "2026-01-29T18:45:37.403000+00:00",
+      "metadata_processed": "2026-01-29T18:45:37.527000+00:00",
+      "geographic_reference": [
+        "world"
+      ],
+      "geographic_reference_auto": true,
+      "territory": [
+        "World"
+      ],
+      "geometry_types": [
+        "MultiPolygon",
+        "Polygon"
+      ],
+      "bbox": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                55.83665046840906,
+                51.089841993525624
+              ],
+              [
+                -61.809763982892036,
+                51.089841993525624
+              ],
+              [
+                -61.809763982892036,
+                -21.38908593915403
+              ],
+              [
+                55.83665046840906,
+                -21.38908593915403
+              ],
+              [
+                55.83665046840906,
+                51.089841993525624
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {}
+      },
+      "publisher": "DGESCO - Ministère de l'éducation nationale",
+      "references": null,
+      "records_count": 30,
+      "attributions": null,
+      "source_domain": null,
+      "source_domain_title": null,
+      "source_domain_address": null,
+      "source_dataset": null,
+      "shared_catalog": null,
+      "federated": false,
+      "parent_domain": null,
+      "update_frequency": null
+    },
+    "metadonnees-complementaires": {
+      "date-observation": null,
+      "periode-donnees": null,
+      "champ": null,
+      "couverture-geographique": null,
+      "unite-statistique": null,
+      "secret-statistique": null,
+      "source": null
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "visibility": "domain",
+  "fields": [
+    {
+      "name": "libelle_aca",
+      "description": null,
+      "annotations": {},
+      "label": "libelle_aca",
+      "type": "text"
+    },
+    {
+      "name": "libelle_aca_majuscules",
+      "description": null,
+      "annotations": {},
+      "label": "libelle_aca_majuscules",
+      "type": "text"
+    },
+    {
+      "name": "email_region_academique",
+      "description": null,
+      "annotations": {},
+      "label": "email_region_academique",
+      "type": "text"
+    },
+    {
+      "name": "email_academie",
+      "description": null,
+      "annotations": {},
+      "label": "email_academie",
+      "type": "text"
+    },
+    {
+      "name": "chefs_d_etablissement",
+      "description": null,
+      "annotations": {},
+      "label": "Chefs d’établissement",
+      "type": "int"
+    },
+    {
+      "name": "enseignants",
+      "description": null,
+      "annotations": {},
+      "label": "Enseignants",
+      "type": "int"
+    },
+    {
+      "name": "administration",
+      "description": null,
+      "annotations": {},
+      "label": "Administration",
+      "type": "int"
+    },
+    {
+      "name": "inspecteurs",
+      "description": null,
+      "annotations": {},
+      "label": "Inspecteurs",
+      "type": "int"
+    },
+    {
+      "name": "total",
+      "description": null,
+      "annotations": {},
+      "label": "TOTAL",
+      "type": "int"
+    },
+    {
+      "name": "geopoint",
+      "description": null,
+      "annotations": {},
+      "label": "GeoPoint",
+      "type": "geo_point_2d"
+    },
+    {
+      "name": "latitude",
+      "description": null,
+      "annotations": {},
+      "label": "Latitude",
+      "type": "double"
+    },
+    {
+      "name": "longitude",
+      "description": null,
+      "annotations": {},
+      "label": "Longitude",
+      "type": "double"
+    }
+  ],
+  "dataset_id": "assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+  "dataset_uid": "da_444nd5",
+  "has_records": true,
+  "features": [
+    "analyze",
+    "geo"
+  ],
+  "attachments": [],
+  "alternative_exports": [],
+  "data_visible": true,
+  "metas": {
+    "dcat": {
+      "created": null,
+      "issued": null,
+      "creator": null,
+      "contributor": null,
+      "contact_name": null,
+      "contact_email": null,
+      "accrualperiodicity": null,
+      "spatial": null,
+      "temporal": null,
+      "granularity": null,
+      "dataquality": null,
+      "publisher_type": null,
+      "conforms_to": null,
+      "temporal_coverage_start": null,
+      "temporal_coverage_end": null,
+      "accessRights": null,
+      "relation": null
+    },
+    "default": {
+      "title": "assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+      "description": "<p>Le présent jeu de données présente  le déploiement de \" l'assistant IA\" de la DINUM pour le ministère de l'éducation nationale spécifiquement en académie</p>",
+      "theme": [
+        "Personnels de l'éducation nationale"
+      ],
+      "keyword": [
+        "intelligence artificielle",
+        "outils",
+        "numérique",
+        "DINUM",
+        "Expérimentation"
+      ],
+      "license": "Licence Ouverte v2.0 (Etalab)",
+      "license_url": "http://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+      "language": "fr",
+      "metadata_languages": [
+        "fr"
+      ],
+      "timezone": null,
+      "modified": "2026-10-01T02:00:03.172000+00:00",
+      "modified_updates_on_metadata_change": true,
+      "modified_updates_on_data_change": true,
+      "data_processed": "2026-10-01T02:00:03.172000+00:00",
+      "metadata_processed": "2026-10-01T02:00:03.270000+00:00",
+      "geographic_reference": [
+        "world"
+      ],
+      "geographic_reference_auto": true,
+      "territory": [
+        "World"
+      ],
+      "geometry_types": [
+        "Point"
+      ],
+      "bbox": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                166.4579929690808,
+                50.47272751573473
+              ],
+              [
+                -149.56650006584823,
+                50.47272751573473
+              ],
+              [
+                -149.56650006584823,
+                -22.27580102160573
+              ],
+              [
+                166.4579929690808,
+                -22.27580102160573
+              ],
+              [
+                166.4579929690808,
+                50.47272751573473
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {}
+      },
+      "publisher": "DNE DSP - Ministère de l'Education Nationale ",
+      "references": null,
+      "records_count": 32,
+      "attributions": null,
+      "source_domain": null,
+      "source_domain_title": null,
+      "source_domain_address": null,
+      "source_dataset": null,
+      "shared_catalog": null,
+      "federated": false,
+      "parent_domain": null,
+      "update_frequency": "DAILY"
+    },
+    "metadonnees-complementaires": {
+      "date-observation": null,
+      "periode-donnees": null,
+      "champ": null,
+      "couverture-geographique": null,
+      "unite-statistique": null,
+      "secret-statistique": null,
+      "source": null
+    }
+  }
+}

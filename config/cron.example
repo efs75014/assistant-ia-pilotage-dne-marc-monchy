@@ -1,0 +1,3 @@
+# Installer UNE option, cron OU workflow Git. Chemin à adapter.
+# Le cron utilise le fuseau de la machine ; définir Europe/Paris sur le serveur.
+30 7 * * * cd /chemin/absolu/prototype && /usr/bin/flock -n /tmp/assistant-refresh.lock /usr/bin/python3 pipeline.py >> refresh.log 2>&1
