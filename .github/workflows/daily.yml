@@ -1,0 +1,52 @@
+name: Actualisation quotidienne Assistant
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5 * * *' # UTC : 07h30 en été, 06h30 en hiver à Paris
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assistant-refresh
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collecte et calcul
+        id: collect
+        continue-on-error: true
+        run: python pipeline.py
+
+      - name: Conserver état et dernier résultat valide
+        if: always()
+        run: |
+          git config user.name 'assistant-dashboard-bot'
+          git config user.email 'assistant-dashboard-bot@users.noreply.github.com'
+          git add data config/indicator.json dashboard.html
+          git diff --cached --quiet || git commit -m 'Actualisation des données et de la fraîcheur'
+          git push
+
+      - name: Tableau consultable à télécharger
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tableau-assistant
+          path: |
+            dashboard.html
+            data/status.json
+          retention-days: 14
+
+      - name: Signaler un échec de collecte
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
