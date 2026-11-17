@@ -1,7 +1,6 @@
 {
-  "ok": false,
-  "attempt_at": "2026-11-16T13:54:06.452197+00:00",
-  "error": "HTTP Error 401: Unauthorized",
-  "mode": "Dernier résultat valide conservé",
-  "scheduler": "Vérifier le journal"
+  "ok": true,
+  "attempt_at": "2026-11-17T14:45:14.495828+00:00",
+  "mode": "Collecte API exécutée",
+  "scheduler": "Non déployé dans ce livrable"
 }
